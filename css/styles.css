@@ -353,131 +353,20 @@ a {
 
 .two-paths {
     background-color: #ffffff;
-    padding: 80px 0;
-}
-
-.two-paths__header {
-    background-color: var(--brand-primary);
-    color: #ffffff;
+    padding: 0;
     text-align: center;
-    padding: 40px 20px;
-    margin-bottom: 0;
 }
 
-.two-paths__header h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
+.two-paths__infographic {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.two-paths__header p {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.comparison {
-    display: grid;
-    grid-template-columns: 1fr 80px 1fr;
-    position: relative;
-}
-
-.comparison__traditional {
-    background-color: #ffffff;
-    padding: 60px 80px;
-}
-
-.comparison__mvp {
-    background-color: var(--dark-gray);
-    color: #ffffff;
-    padding: 60px 80px;
-}
-
-.comparison__traditional h3,
-.comparison__mvp h3 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 50px;
-}
-
-.comparison__traditional h3 {
-    color: var(--dark-bg);
-}
-
-.comparison__mvp h3 {
-    color: #ffffff;
-}
-
-.comparison__divider {
-    background: linear-gradient(180deg,
-        var(--brand-primary) 0%,
-        var(--brand-secondary-2) 25%,
-        var(--brand-secondary-3) 50%,
-        var(--brand-secondary-4) 100%);
-    position: relative;
-}
-
-.comparison__item {
-    display: flex;
-    align-items: flex-start;
-    gap: 25px;
-    margin-bottom: 40px;
-}
-
-.icon-wrapper {
-    position: relative;
-    flex-shrink: 0;
-}
-
-.icon {
-    width: 80px;
-    height: 80px;
-}
-
-.alert-icon {
-    position: absolute;
-    bottom: -5px;
-    right: -5px;
-    background-color: var(--brand-secondary-4);
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 24px;
-    width: 35px;
-    height: 35px;
-    border-radius: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-
-.item-text p {
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 500;
-}
-
-.comparison__footer {
-    margin-top: 60px;
-    padding-top: 30px;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-}
-
-.comparison__mvp .comparison__footer {
-    border-top-color: rgba(255, 255, 255, 0.2);
-}
-
-.footer-text {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.4;
-}
-
-.two-paths__cta {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #ffffff;
+.two-paths__infographic img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* ============================================
